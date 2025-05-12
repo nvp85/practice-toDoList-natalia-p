@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  box-sizing: border-box;
+  font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+  font-weight: bold;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+ li::marker {
+  color: blueviolet;
+  font-size:2rem;
+ }
+
+ header {
+  margin: 1rem;
+ }
+
+ li:hover {
+  background-color: lightskyblue;
+ }
+
+
